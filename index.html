@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css "href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+	<script src="script.js"></script>
+	<title>Quiz App in JS</title>
+</head>
+<body >
+
+	<h1>This is Online Quizing App..</h1>
+	<form  id="quiz" name="quiz"action="">
+		 <p>What is the capital of Pakistan?</p>
+		 <input type="radio" id="mc" name="question1" value="Lahore">Lahore <br>
+		 <input type="radio" id="mc" name="question1" value="Islamabad">Islamabad <br>
+
+		 <p>What is the capital of india?</p>
+		 <input type="radio" id="mc" name="question2" value="Delhi">Delhi <br>
+		 <input type="radio" id="mc" name="question2" value="Mumbai">Mumbai <br>
+
+		 <p>What is the capital of USA?</p>
+		 <input type="radio" id="mc" name="question3" value="California">California <br>
+		 <input type="radio" id="mc" name="question3" value="New York">New York <br>
+
+		 <input type="button" id="button" value="I'm Finished" onclick="check();">
+	</form>
+	<br>
+	<div id="after_submit">
+		<p id="message"></p>
+		<p id="number_correct"></p>
+
+	</div>
+</body>
+</html>
